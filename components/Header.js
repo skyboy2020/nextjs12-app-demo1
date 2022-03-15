@@ -2,14 +2,15 @@ import headerStyles from '../styles/Header.module.css'
 
 const Header = () => {
 
-    const x = 5;
+    // const x = 5;
 
     return (
         <div>
-          <h1 className='title'>
+          {/* <h1 className='title'> */}
+          <h1 className={headerStyles.title}>
               <span>WebDev</span> News
           </h1>
-          <style jsx>
+          {/* <style jsx>
               {
                  `
                   .title {
@@ -17,7 +18,7 @@ const Header = () => {
                   } 
                   `
               }
-          </style>
+          </style> */}
         </div>
     )
 }
