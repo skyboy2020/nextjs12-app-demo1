@@ -1,18 +1,23 @@
-import Link from 'next/link'
-import navStyles from '../styles/Nav.module.css'
+import Link from "next/link";
+import navStyles from "../styles/Nav.module.css";
 
 const Nav = () => {
-    return (
-        <nav className={navStyles.nav}>
-            <ul>
-              <li>
-                <link href='/'>Home</link>  
-              </li>  
-              <li>
-                <link href='about'>About</link> 
-              </li>
-            </ul>
+  return (
+    <nav className={navStyles.nav}>
+      <ul>
+        <li>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/about">
+            <a>About Us</a>
+          </Link>
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
-        </nav>
-    )
-}
+export default Nav;
