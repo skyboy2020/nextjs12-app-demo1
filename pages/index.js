@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import ArticleList from '../components/ArticleList'
 import {server} from '../config'
+import Meta from '../components/Meta'
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
 
@@ -10,10 +11,7 @@ export default function Home({ articles }) {
 
   return (
     <div>
-      <Head>
-        <title>WebDev newz</title>
-        <meta name='keywords' content='web development, programming'/>
-      </Head>
+      <Meta title='首页' />
       <ArticleList articles={articles}/>
       <h1>Welcome to Next</h1>
     </div>
