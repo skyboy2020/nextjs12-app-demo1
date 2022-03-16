@@ -3,7 +3,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 next js 12 示例工程
 pages/article/[id]/index.js    getServerProps getStaticProps用法
-components/Layout.js   pages/_app.js  组件封装使用     
+components/Layout.js   pages/_app.js  组件封装使用    
+Fragment标签使用 Link链接标签使用 pages/news/index.js 
 
 First, run the development server:
 
