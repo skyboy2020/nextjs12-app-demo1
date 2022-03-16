@@ -11,6 +11,7 @@ const article = ({ article }) => {
     <>
      <Meta title={article.title} description={article.excerpt} />
      <h1>{article.title}</h1>
+     <p>{article.excerpt}</p>
      <p>{article.body}</p>
      <br />
      <Link href='/'>Go Back</Link>
